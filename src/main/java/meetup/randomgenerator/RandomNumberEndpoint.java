@@ -23,7 +23,6 @@ public class RandomNumberEndpoint {
     public Map<String, String> random() {
         Map<String, String> ret = new HashMap<>();
         ret.put("id", id.toString());
-        ret.put("random", "" + random.nextInt());
         return ret;
     }
 }
