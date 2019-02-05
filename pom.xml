@@ -60,7 +60,7 @@
             <plugin>
                 <groupId>io.fabric8</groupId>
                 <artifactId>fabric8-maven-plugin</artifactId>
-                <version>4.0.0-M1</version>
+                <version>4.0.0-M2</version>
             </plugin>
         </plugins>
     </build>
