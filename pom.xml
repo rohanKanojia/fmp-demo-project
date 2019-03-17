@@ -60,16 +60,7 @@
             <plugin>
                 <groupId>io.fabric8</groupId>
                 <artifactId>fabric8-maven-plugin</artifactId>
-                <version>4.0.0-M2</version>
-                <configuration>
-                    <resources>
-                        <liveness>
-                            <getUrl>http://192.168.42.225:8080/random</getUrl>
-                            <timeoutSeconds>3</timeoutSeconds>
-                        </liveness>
-                    </resources>
-                </configuration>
-
+                <version>4.0.0</version>
             </plugin>
         </plugins>
     </build>
