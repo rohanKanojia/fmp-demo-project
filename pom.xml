@@ -58,9 +58,9 @@
             </plugin>
 
             <plugin>
-                <groupId>io.fabric8</groupId>
-                <artifactId>fabric8-maven-plugin</artifactId>
-                <version>4.0.0</version>
+                <groupId>io.jshift</groupId>
+                <artifactId>kubernetes-maven-plugin</artifactId>
+                <version>0.1-SNAPSHOT</version>
             </plugin>
         </plugins>
     </build>
